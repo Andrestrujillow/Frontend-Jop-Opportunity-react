@@ -1,0 +1,58 @@
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f2e8c;
+}
+
+.link {
+  margin-top: 10px;
+  display: block;
+  color: #1d4ed8;
+  cursor: pointer;
+}
+
+.user-type {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.user-card {
+  border: 2px solid #ccc;
+  padding: 10px;
+  flex: 1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.user-card.selected {
+  border-color: #1d4ed8;
+  background: #e0e7ff;
+}
